@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studenthelper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Helper Tools</h1>
+        <div class="tools">
+            <!-- Task Tracker Section -->
+            <div class="tool" id="task-tracker">
+                <h2>Task Tracker</h2>
+                <input type="text" id="task-input" placeholder="Add your task...">
+                <button id="add-task-btn">Add Task</button>
+                <ul id="task-list"></ul>
+            </div>
+            
+            <!-- Study Timer Section -->
+            <div class="tool" id="study-timer">
+                <h2>Study Timer (Pomodoro)</h2>
+                <p id="timer">25:00</p>
+                <button id="start-timer">Start</button>
+                <button id="reset-timer">Reset</button>
+            </div>
+            
+            <!-- Grade Calculator Section -->
+            <div class="tool" id="grade-calculator">
+                <h2>Grade Calculator</h2>
+                <input type="number" id="grade-input" placeholder="Enter grade %">
+                <button id="calculate-grade">Calculate</button>
+                <p id="grade-result"></p>
+            </div>
+           
+            <!-- Quick Notes Section -->
+            <div class="tool" id="quick-notes">
+                <h2>Quick Notes</h2>
+                <textarea id="notes-input" placeholder="Write your notes..."></textarea>
+                <button id="save-notes">Save</button>
+                <p id="saved-notes"></p>
+                <button id="all saved quick-notes">saved-notes</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
